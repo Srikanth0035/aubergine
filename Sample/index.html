@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Software Development &amp; UX Design Blogs | Aubergine Solutions" />
+    <title>AUBERGINE SOLUTIONS</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!------Font Awesome------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-------Bootstrap CDN links-------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <!-------Main style sheet-------->
+    <link rel="stylesheet" href="style.css" />
+    <!-------Google fonts-------->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!---Header-->
+    <header class="">
+      <div class="container nav-container justify-content-sm-between">
+        <div class="row">
+          <div class="col-12 px-3 pt-md-3 pt-lg-1">
+            <nav class="navbar navbar-expand-lg px-sm-4">
+              <div>
+                <a class="navbar-brand" href="#"
+                  ><img src="images/logo.png" alt="AUBERGINE"
+                /></a>
+              </div>
+              <div class="d-none d-lg-block">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5">
+                    <a class="nav-link pb-lg-0 px-lg-0" href="/">work</a>
+                  </li>
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5 dropdown">
+                    <a
+                      class="nav-link pb-lg-0 px-lg-0 dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      expertise
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5">
+                    <a class="nav-link pb-lg-0 px-lg-0" href="#">clients</a>
+                  </li>
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5">
+                    <a class="nav-link pb-lg-0 px-lg-0" href="#">about</a>
+                  </li>
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5">
+                    <a class="nav-link pb-lg-0 px-lg-0" href="#">careers</a>
+                  </li>
+                  <li class="nav-item ms-sm-3 ms-md-3 ms-lg-4 ms-xl-5">
+                    <a class="nav-link pb-lg-0 px-lg-0 nav-build" href="#">
+                      <button class="header-button">Let's Build</button></a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Button trigger modal -->
+              <div
+                class="mobile-toggler d-lg-none"
+                data-bs-toggle="modal"
+                data-bs-target="#navModal">
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="navModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="navbar-brand" href="#"
+              ><img src="images/logo.png" alt="AUBERGINE"
+            /></a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body footer-nav">
+            <ul class="list-unstyled row">
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">work</a></li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4">
+                  <a href="/">expertise</a>
+                </li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">clients</a></li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">about</a></li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">careers</a></li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">blog</a></li>
+              </div>
+              <div class="modal-line">
+                <li class="mb-md-6 mb-4"><a href="/">Contact</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---Main section-->
+    <div class="main-section py-5">
+      <div class="container py-lg-5 py-md-4 py-sm-2">
+        <div class="row">
+          <div class="col col-lg-6 col-md-8 col-8 offset-3">
+            <span>Development</span>
+            <h1>Don’t code today what anyone can’t debug tomorrow</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container image-container p-0 py-4">
+        <div class="row">
+          <div class="col-8 col-lg-8 col-md-10 col-sm-10">
+            <img src="images/laptop.png" alt="laptop" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Technology section-->
+    <div class="container technology-container">
+      <div class="row">
+        <div class="col-sm-6 col-md-8 col-lg-8 ms-auto">
+          <section class="row py-lg-5">
+            <div class="tech-heading py-lg-4">
+              <h2>The right technology and technologists for your business</h2>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <h3>Software Product Development</h3>
+                <p>
+                  We pride ourselves on the ability to question and challenge
+                  the conventional. Our aptitude for innovation helps our
+                  products stand apart.
+                </p>
+              </div>
+              <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <h3>Web App Development</h3>
+                <p>
+                  Our technical skill set is a broad range covering APIs, data
+                  processing pipelines, data importers, web scrapers, ETL
+                  Development, BI tools like Metabase development, etc
+                </p>
+              </div>
+              <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <h3>Front-end Development</h3>
+                <p>
+                  We have expertise in Front-end technologies like Angular
+                  development, react development and Vue development. If you
+                  have a back-end engineering team, and need help with Front-end
+                  Development, we can be the extension you need.
+                </p>
+              </div>
+              <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <h3>Back-end Development</h3>
+                <p>
+                  Our technical skill set is a broad range covering APIs, data
+                  processing pipelines, data importers, web scrapers, ETL
+                  Development, BI tools like Metabase development, etc
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!---Result section-->
+    <div class="main-section py-5">
+      <div class="container image-container p-0 py-4">
+        <div class="row justify-content-end">
+          <div class="col-8 col-lg-9 col-md-10 col-sm-10">
+            <img src="images/Development - 2.png" alt="laptop" />
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-md-4 py-sm-2">
+        <div class="row">
+          <div class="col col-lg-6 col-md-8 col-8 offset-3">
+            <span>Process</span>
+            <h2>Fall in love with the process and results will follow</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Deployment section-->
+    <div class="main-section">
+      <div class="container px-lg-5 py-md-4 py-sm-2">
+        <div class="row">
+          <div class="col col-lg-6 col-md-8 col-8 offset-3">
+            <span>Devops</span>
+            <h2>Efficient development and IT Operations</h2>
+            <p>
+              We utilize the latest technologies to enable rapid deployment of
+              applications to staging or production environments. DevOps
+              Automation helps us release faster, high quality delivery cycles.
+              Get top of the line solutions competent across Cloud platforms
+              like AWS, Google Cloud, Azure etc.
+            </p>
+          </div>
+          <div class="row deployment-section">
+            <div class="col col-lg-6 col-md-8 col-8 offset-3 py-3">
+              <h3>Deployment</h3>
+            </div>
+
+            <div
+              class="col-lg-8 col-md-10 col-sm-10 offset-lg-3 offset-md-3 offset-sm-0 pb-5">
+              <div class="row">
+                <div class="col">
+                  <img src="images/docker.png" alt="docker" />
+                </div>
+                <div class="col">
+                  <img src="images/Kubernetes.png" alt="Kubernetes" />
+                </div>
+                <div class="col">
+                  <img
+                    src="images/Amazon-Auto-Scaling.png"
+                    alt="Amazon Auto Scaling" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-8 col-md-10 col-sm-10 offset-lg-3 offset-md-3 offset-sm-0 pb-5">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="images/Amazon-S3-Cloud-Object-Storage.png"
+                    alt="Amazon S3 Cloud Object Storage" />
+                </div>
+                <div class="col">
+                  <img
+                    src="images/Amazon-Cloudfront.png"
+                    alt="Amazon Cloudfront" />
+                </div>
+                <div class="col">
+                  <img src="images/Amazon-RDS.png" alt="Amazon RDS" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-8 col-md-10 col-sm-10 offset-lg-3 offset-md-3 offset-sm-0 pb-5">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                  <h3>Build</h3>
+                  <p>
+                    Create, deploy and run applications faster using container
+                    technologies like Docker.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                  <h3>Package</h3>
+                  <p>
+                    Tag the build and upload to the container repository
+                    following best practices.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                  <h3>Release</h3>
+                  <p>
+                    Rapid container deployment using Kubernetes for simplified
+                    management of services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---Footer-->
+    <footer>
+      <div class="container design-container">
+        <div class="row">
+          <div class="col-4 offset-0 d-none d-md-flex">
+            <img src="images/design1.png" alt="design-pattern" />
+          </div>
+          <div
+            class="col-lg-5 offset-lg-1 col-sm-8 col-md-4 align-self-center justify-content-sm-center">
+            <h2>Looking for a partner who delivers professionally?</h2>
+            <h3>Let’s connect</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-md">
+        <div class="row">
+          <div class="col footer-logo">
+            <img src="images/logo.png" alt="aubergine_logo" />
+          </div>
+        </div>
+        <div class="row d-sm-block d-md-none d-lg-none justify-content-center">
+          <div class="col-8">
+            <p>FAQ</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Contact</p>
+          </div>
+          <div class="col-8">
+            <p>+1 650-239-3232 (USA)</p>
+            <p>+91 9099-963-392 (India)</p>
+          </div>
+        </div>
+        <div class="row d-none d-md-flex">
+          <div class="col-12 col-sm-9 col-md-4 col-lg-3 footer-nav">
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a class="" href="#">Work</a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">UX Design</a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">Development</a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">clients</a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">About</a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">Careers</a>
+              </li>
+
+              <li class="mb-2">
+                <a class="" href="#">Contact </a>
+              </li>
+              <li class="mb-2">
+                <a class="" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-9 col-md-4 col-lg-3">
+            <p>Python</p>
+            <p>Node</p>
+            <p>React</p>
+            <p>Angular</p>
+          </div>
+          <div class="col-12 col-sm-9 col-md-4 col-lg-6">
+            <p>Ios</p>
+            <p>Andriod</p>
+            <p>Flutter</p>
+          </div>
+        </div>
+        <div
+          class="row d-none d-md-flex offset-3 offset-md-0 offset-lg-3 mb-0 d-flex mb-md-16 mt-4 mt-sm-8 justify-content-between">
+          <div class="col col-md-2 col-lg-2 mb-5">
+            <img
+              src="images/UX-Design-Awards.png"
+              alt="UX Design Awards"
+              height="100px"
+              width="auto" />
+          </div>
+          <div class="col col-md-2 col-lg-2 mb-5">
+            <img
+              src="images/Reddot.png"
+              alt="Reddot"
+              height="100px"
+              width="auto" />
+          </div>
+          <div class="col col-md-2 col-lg-2 mb-5">
+            <img
+              src="images/Best-Workplaces.png"
+              alt="Great Place to Work"
+              height="100px"
+              width="auto" />
+          </div>
+          <div class="col col-md-2 col-lg-2 mb-5">
+            <img
+              src="images/Clutch.png"
+              alt="Clutch"
+              height="100px"
+              width="auto" />
+          </div>
+          <div class="col col-md-2 col-lg-2 mb-5">
+            <img
+              src="images/Best-Place-to-Work.png"
+              alt="Best Place to Work"
+              height="100px"
+              width="auto" />
+          </div>
+        </div>
+      </div>
+      <div class="container Copyright-container">
+        <div class="row pb-5 px-6">
+          <div class="col-sm-10 col-md-6 col-lg-3 pb-3">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-medium" aria-hidden="true"></i>
+            <i class="fa fa-behance" aria-hidden="true"></i>
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3">
+            <p>© Copyright 2020 Aubergine Solutions Pvt. Ltd.</p>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3">
+            <p>Carefully crafted by team Aubergine.</p>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3">
+            <p>Terms of Use & Privacy Policy.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
